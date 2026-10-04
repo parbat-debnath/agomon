@@ -1,0 +1,224 @@
+@font-face {
+  font-family: 'AmarBangla';
+  src: url('../storage/fonts/AmarBangla.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    font-family: "Lato", sans-serif;
+}
+
+header
+{
+    width: 100%;
+}
+
+header .logo
+{
+    font-family: 'AmarBangla';
+    font-size: 60px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    background-color: #960101;
+    padding-top: 10px;
+}
+header p{
+    padding: 10px;
+    font-family: 'AmarBangla';
+}
+header #tagline
+{
+    background-color: rgb(188, 188, 188);
+    text-align: center;
+    color: rgb(150, 1, 1);
+    font-weight: 500;
+    font-size: 20px;
+}
+header #description
+{
+    line-height: 18px;
+    padding: 20px;
+    margin: 20px;
+    margin-top: 50px;
+    font-family: "Rufina", serif;
+}
+header #description::before
+{
+    content: '“';
+    font-family: 'AmarBangla';
+    font-size: 100px;
+    line-height: 10px;
+    color: #960101;
+}
+header aside
+{
+    margin: 30px;
+    padding: 20px;
+    background: rgb(255, 251, 244);
+    border: 1px solid rgb(255, 223, 167);
+    border-radius: 5px;
+}
+
+nav
+{
+    margin: 30px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+nav a
+{
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+nav a:hover
+{
+    font-weight: 600;
+    color: #960101;
+}
+
+/* main */
+
+main h3
+{
+    margin-left: 30px;
+    margin-top: 50px;
+}
+main h1
+{
+    margin: 30px;
+    font-family: "Rufina", serif;
+    color: #960101;
+    margin-top: 15px;
+}
+main p
+{
+    margin-left: 30px;
+    text-transform: uppercase;
+    font-family: "Rufina", serif;
+    margin-bottom: 7px;
+    font-size: 15px;
+}
+main p b
+{
+    color: #960101;
+    font-size: 18px;
+}
+main .wrapper
+{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 40px;
+}
+main .wrapper img
+{
+    width: 100%;
+    box-shadow: -5px 5px 10px rgb(160, 160, 160);
+}
+main .btn-wrapper
+{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+main a
+{
+    text-align: center;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #960101;
+    border: 1px solid #960101;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+section
+{
+    margin-top: 50px;
+}
+section h3
+{
+    margin-left: 30px;
+}
+section .wrapper
+{
+    padding: 25px;
+}
+section table
+{
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+    font-family: sans-serif;
+    border-radius: 8px 8px 0 0;
+    overflow: hidden;
+}
+section table th
+{
+    color: #960101;
+    padding: 20px;
+}
+section table tr
+{
+    color: #212121;
+    text-align: left;
+    border-bottom: 1px solid #dddddd;
+    font-family: "Rufina", serif;
+}
+section table td
+{
+    padding: 10px;
+}
+section table td a
+{
+    color: #960101;
+}
+section table tr:nth-of-type(even)
+{
+    background-color: #f3f3f3;
+}
+
+
+footer
+{
+    background: #960101;
+    margin-top: 60px;
+    padding: 30px;
+    color: white;
+}
+footer h3
+{
+    margin-bottom: 30px;
+}
+footer h4
+{
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+footer p a
+{
+    color: white;
+}
+footer #copyright
+{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 15px;
+}
