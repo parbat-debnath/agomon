@@ -41,7 +41,7 @@ header p{
 }
 header #tagline
 {
-    background-color: rgb(188, 188, 188);
+    background-color: rgb(223, 223, 223);
     text-align: center;
     color: rgb(150, 1, 1);
     font-weight: 500;
@@ -71,7 +71,11 @@ header aside
     border: 1px solid rgb(255, 223, 167);
     border-radius: 5px;
 }
-
+.nav-heading
+{
+    margin: 30px;
+    margin-top: 50px;
+}
 nav
 {
     margin: 30px;
@@ -231,4 +235,63 @@ footer #copyright
     text-align: center;
     font-size: 15px;
     color: rgb(213, 213, 213);
+}
+
+/* For desktop */
+
+@media (min-width: 769px){
+    header #description
+    {
+        padding: 5vw;
+    }
+    header aside, .nav-heading, nav, #editions-archive h3
+    {
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+    main
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    main .right-pannel
+    {
+        width: 50%;
+        max-height: 100dvh;
+    }
+    main .right-pannel .wrapper
+    {
+        
+    }
+    main .right-pannel .wrapper img
+    {
+        max-width: 60%;
+    }
+    main .right-pannel .btn-wrapper
+    {
+        max-width: 60%;
+        display: flex;
+    }
+
+    #editions-archive .wrapper
+    {
+        display: flex;
+        justify-content: center;
+    }
+    #editions-archive .wrapper table
+    {
+        width: 60%;
+    }
+    footer
+    {
+        padding: 5vw;
+        text-align: center;
+        height: 100vh;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
